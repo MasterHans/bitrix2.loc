@@ -1,0 +1,6 @@
+# phpstorm project files
+.idea
+# bitrix cms files
+bitrix
+bitrixsetup.php
+
