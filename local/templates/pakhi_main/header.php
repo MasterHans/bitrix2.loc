@@ -2,13 +2,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-
     <?php
     use \Bitrix\Main\Page\Asset;
         $APPLICATION->ShowHead();
     ?>
-
-
     <title><?php $APPLICATION->ShowTitle(); ?></title>
 
     <?php
@@ -27,6 +24,7 @@
 
 </head>
 <body>
+<div id="panel"><?php $APPLICATION->ShowPanel(); ?></div>
 <!-- header-section-starts -->
 <div class="header" id="home">
     <div class="top-header">
