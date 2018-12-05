@@ -16,17 +16,17 @@ $aMenuLinksExt = $APPLICATION->IncludeComponent(
         "CACHE_TIME" => "3600"
     )
 );
-//$aMenuLinks = array_merge(
-//    [
-//        [
-//            "Home",
-//            "/",
-//            [],
-//            [],
-//            ""
-//        ]
-//    ],
-//    $aMenuLinks,
-//    $aMenuLinksExt
-//);
-$aMenuLinks = array_merge([['Home', '/', [], [], '']], $aMenuLinksExt, $aMenuLinks);
+$aMenuLinks = array_merge(
+    [
+        [
+            "Home",
+            "/",
+            [],
+            [],
+            ""
+        ]
+    ],
+    $aMenuLinks,
+    $aMenuLinksExt
+);
+//$aMenuLinks = array_merge([['Home', '/', [], [], '']], $aMenuLinksExt, $aMenuLinks);
