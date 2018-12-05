@@ -2,5 +2,6 @@
 .idea
 # bitrix cms files
 bitrix
+!bitrix/backup
 bitrixsetup.php
 
