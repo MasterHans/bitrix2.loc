@@ -2,7 +2,7 @@
 .idea
 
 # bitrix cms files
-bitrix/*
+bitrix/**/*
 !bitrix/backup/*
 
 # ignore bitrix installation file
