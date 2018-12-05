@@ -1,7 +1,10 @@
 # phpstorm project files
 .idea
+
 # bitrix cms files
-bitrix
-!bitrix/backup
+bitrix/*
+!bitrix/backup/*
+
+# ignore bitrix installation file
 bitrixsetup.php
 
