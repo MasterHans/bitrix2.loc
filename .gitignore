@@ -1,6 +1,7 @@
 # phpstorm project files
 .idea
 
+!bitrix/*
 # bitrix cms files
 bitrix/*
 !bitrix/backup/*
