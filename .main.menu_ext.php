@@ -26,7 +26,8 @@ $aMenuLinks = array_merge(
             ""
         ]
     ],
-    $aMenuLinks,
-    $aMenuLinksExt
+    $aMenuLinksExt,
+    $aMenuLinks
+
 );
 //$aMenuLinks = array_merge([['Home', '/', [], [], '']], $aMenuLinksExt, $aMenuLinks);
