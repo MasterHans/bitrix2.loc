@@ -74,10 +74,10 @@ ul.nav {
     /*background: none;*/
 /*}*/
 
-.nav > li:nth-child(1) > a:hover, .nav > li:nth-child(5) > a:hover, .nav > li:nth-child(6) > a:hover, .nav > li:nth-child(7) > a:hover {
+/*.nav > li:nth-child(1) > a:hover, .nav > li:nth-child(5) > a:hover, .nav > li:nth-child(6) > a:hover, .nav > li:nth-child(7) > a:hover {
     background: none;
     color: #fff;
-}
+}*/
 
 .nav > li:hover > a {
     color: #fff;
