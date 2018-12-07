@@ -80,4 +80,12 @@ $arUrlRewrite=array (
     'PATH' => '/news/index.php',
     'SORT' => 100,
   ),
+  11 => 
+  array (
+    'CONDITION' => '#^/tk/#',
+    'RULE' => '',
+    'ID' => 'bitrix:catalog',
+    'PATH' => '/tk/index.php',
+    'SORT' => 100,
+  ),
 );
