@@ -2,8 +2,8 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Каталог");
 ?><?$APPLICATION->IncludeComponent(
-	"bitrix:catalog",
-	".default",
+	"bitrix:catalog", 
+	".default", 
 	array(
 		"ACTION_VARIABLE" => "action",
 		"ADD_ELEMENT_CHAIN" => "N",
@@ -27,10 +27,9 @@ $APPLICATION->SetTitle("Каталог");
 		"CONVERT_CURRENCY" => "N",
 		"DETAIL_ADD_DETAIL_TO_SLIDER" => "N",
 		"DETAIL_ADD_TO_BASKET_ACTION" => array(
-			0 => "BUY",
+			0 => "ADD",
 		),
 		"DETAIL_ADD_TO_BASKET_ACTION_PRIMARY" => array(
-			0 => "BUY",
 		),
 		"DETAIL_BACKGROUND_IMAGE" => "-",
 		"DETAIL_BRAND_USE" => "N",
@@ -173,8 +172,7 @@ $APPLICATION->SetTitle("Каталог");
 		"PRICE_VAT_SHOW_VALUE" => "N",
 		"PRODUCT_DISPLAY_MODE" => "Y",
 		"PRODUCT_ID_VARIABLE" => "id",
-		"PRODUCT_PROPERTIES" => array(
-		),
+		"PRODUCT_PROPERTIES" => "",
 		"PRODUCT_PROPS_VARIABLE" => "prop",
 		"PRODUCT_QUANTITY_VARIABLE" => "quantity",
 		"PRODUCT_SUBSCRIPTION" => "Y",
@@ -185,7 +183,7 @@ $APPLICATION->SetTitle("Каталог");
 		"SEARCH_USE_LANGUAGE_GUESS" => "Y",
 		"SECTIONS_SHOW_PARENT_NAME" => "Y",
 		"SECTIONS_VIEW_MODE" => "LIST",
-		"SECTION_ADD_TO_BASKET_ACTION" => "ADD",
+		"SECTION_ADD_TO_BASKET_ACTION" => "BUY",
 		"SECTION_BACKGROUND_IMAGE" => "-",
 		"SECTION_COUNT_ELEMENTS" => "N",
 		"SECTION_ID_VARIABLE" => "SECTION_ID",
@@ -205,7 +203,7 @@ $APPLICATION->SetTitle("Каталог");
 		"SIDEBAR_PATH" => "",
 		"SIDEBAR_SECTION_SHOW" => "Y",
 		"TEMPLATE_THEME" => "blue",
-		"TOP_ADD_TO_BASKET_ACTION" => "ADD",
+		"TOP_ADD_TO_BASKET_ACTION" => "BUY",
 		"TOP_ELEMENT_COUNT" => "9",
 		"TOP_ELEMENT_SORT_FIELD" => "sort",
 		"TOP_ELEMENT_SORT_FIELD2" => "id",
@@ -241,7 +239,7 @@ $APPLICATION->SetTitle("Каталог");
 		"USE_GIFTS_SECTION" => "N",
 		"USE_MAIN_ELEMENT_SECTION" => "N",
 		"USE_PRICE_COUNT" => "N",
-		"USE_PRODUCT_QUANTITY" => "N",
+		"USE_PRODUCT_QUANTITY" => "Y",
 		"USE_REVIEW" => "N",
 		"USE_SALE_BESTSELLERS" => "Y",
 		"USE_STORE" => "N",

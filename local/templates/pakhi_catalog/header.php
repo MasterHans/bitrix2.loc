@@ -63,7 +63,7 @@
                 </script>
                 <!-- //search-scripts -->
 
-                <a href="cart.html"><i class="cart"></i></a>
+                <a href="/personal/cart/"><i class="cart"></i></a>
             </div>
 
             <? $APPLICATION->IncludeComponent("bitrix:menu", "menu_catalog", Array(
