@@ -5,8 +5,9 @@
 # /*
 # !/bitrix
 /bitrix/*
-!/bitrix/backup
+#!/bitrix/backup
 
 # ignore bitrix installation file
 bitrixsetup.php
+
 
