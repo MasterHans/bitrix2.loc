@@ -3,7 +3,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Каталог");
 ?><?$APPLICATION->IncludeComponent(
 	"bitrix:catalog", 
-	"catalog_new", 
+	"simple", 
 	array(
 		"ACTION_VARIABLE" => "action",
 		"ADD_ELEMENT_CHAIN" => "N",
@@ -29,8 +29,7 @@ $APPLICATION->SetTitle("Каталог");
 		"DETAIL_ADD_TO_BASKET_ACTION" => array(
 			0 => "ADD",
 		),
-		"DETAIL_ADD_TO_BASKET_ACTION_PRIMARY" => array(
-		),
+		"DETAIL_ADD_TO_BASKET_ACTION_PRIMARY" => "",
 		"DETAIL_BACKGROUND_IMAGE" => "-",
 		"DETAIL_BRAND_USE" => "N",
 		"DETAIL_BROWSER_TITLE" => "-",
@@ -42,8 +41,7 @@ $APPLICATION->SetTitle("Каталог");
 		"DETAIL_DISPLAY_NAME" => "Y",
 		"DETAIL_DISPLAY_PREVIEW_TEXT_MODE" => "E",
 		"DETAIL_IMAGE_RESOLUTION" => "16by9",
-		"DETAIL_MAIN_BLOCK_PROPERTY_CODE" => array(
-		),
+		"DETAIL_MAIN_BLOCK_PROPERTY_CODE" => "",
 		"DETAIL_META_DESCRIPTION" => "-",
 		"DETAIL_META_KEYWORDS" => "-",
 		"DETAIL_OFFERS_FIELD_CODE" => array(
@@ -101,8 +99,7 @@ $APPLICATION->SetTitle("Каталог");
 		"IBLOCK_TYPE" => "catalog",
 		"INCLUDE_SUBSECTIONS" => "Y",
 		"INSTANT_RELOAD" => "N",
-		"LABEL_PROP" => array(
-		),
+		"LABEL_PROP" => "",
 		"LAZY_LOAD" => "N",
 		"LINE_ELEMENT_COUNT" => "3",
 		"LINK_ELEMENTS_URL" => "link.php?PARENT_ELEMENT_ID=#ELEMENT_ID#",
@@ -128,8 +125,7 @@ $APPLICATION->SetTitle("Каталог");
 			0 => "",
 			1 => "",
 		),
-		"LIST_PROPERTY_CODE_MOBILE" => array(
-		),
+		"LIST_PROPERTY_CODE_MOBILE" => "",
 		"LIST_SHOW_SLIDER" => "Y",
 		"LIST_SLIDER_INTERVAL" => "3000",
 		"LIST_SLIDER_PROGRESS" => "N",
@@ -243,7 +239,7 @@ $APPLICATION->SetTitle("Каталог");
 		"USE_REVIEW" => "N",
 		"USE_SALE_BESTSELLERS" => "Y",
 		"USE_STORE" => "N",
-		"COMPONENT_TEMPLATE" => "catalog_new",
+		"COMPONENT_TEMPLATE" => "simple",
 		"SEF_FOLDER" => "/catalog/",
 		"TOP_PROPERTY_CODE_MOBILE" => "",
 		"TOP_PRODUCT_BLOCKS_ORDER" => "price,props,sku,quantityLimit,quantity,buttons,compare",
@@ -252,8 +248,7 @@ $APPLICATION->SetTitle("Каталог");
 		"TOP_SHOW_SLIDER" => "Y",
 		"TOP_SLIDER_INTERVAL" => "3000",
 		"TOP_SLIDER_PROGRESS" => "N",
-		"DETAIL_MAIN_BLOCK_OFFERS_PROPERTY_CODE" => array(
-		),
+		"DETAIL_MAIN_BLOCK_OFFERS_PROPERTY_CODE" => "",
 		"FILTER_NAME" => "",
 		"FILTER_FIELD_CODE" => array(
 			0 => "",
@@ -276,6 +271,7 @@ $APPLICATION->SetTitle("Каталог");
 			0 => "COLOR",
 			1 => "",
 		),
+		"USE_ALSO_BUY" => "N",
 		"SEF_URL_TEMPLATES" => array(
 			"sections" => "",
 			"section" => "#SECTION_CODE#/",
